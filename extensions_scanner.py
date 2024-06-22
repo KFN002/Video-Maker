@@ -11,5 +11,5 @@ def print_file_extensions(directory):
 
 
 if __name__ == "__main__":
-    directory_path = "C:/Users/fedot/Desktop/class"
+    directory_path = "images"
     print_file_extensions(directory_path)

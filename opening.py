@@ -6,7 +6,7 @@ image = Image.open(image_path)
 bw_image = image.convert("RGBA")
 width, height = bw_image.size
 text_layer = Image.new("RGBA", (width, height), (255, 255, 255, 0))
-text = "11Я"
+text = ""
 font_size = 600
 font = ImageFont.truetype("arialbd.ttf", font_size)
 
