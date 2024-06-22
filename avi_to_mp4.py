@@ -15,14 +15,9 @@ def convert_avi_to_mp4(avi_file, mp4_file):
 
 
 if __name__ == "__main__":
-    '''
     for video in os.listdir("videos_done"):
         avi_file = f'videos_done/{video}'
         mp4_file = f'videos_mp4/{video[:-4]}.mp4'
 
         convert_avi_to_mp4(avi_file, mp4_file)
-    '''
-    avi_file = f'videos_done/video_два_korablya.avi'
-    mp4_file = f'videos_mp4/video_два_korablya.mp4'
 
-    convert_avi_to_mp4(avi_file, mp4_file)

@@ -19,15 +19,9 @@ def add_audio(video_path, audio_path, output_path):
     final_video.write_videofile(output_path, codec='libx264')
 
 
-'''
 for audio in os.listdir("background_music"):
     video_output = f"{output_name}.avi"
     audio_file = f"background_music/{audio}"
     final_video_output = f"videos_done/video_{audio[:-4].lower().replace(' ', '_')}.avi"
     add_audio(video_output, audio_file, final_video_output)
-'''
 
-video_output = f"{output_name}.avi"
-audio_file = f"background_music/два_korablya.mp3"
-final_video_output = f"videos_done/video_два_korablya.avi"
-add_audio(video_output, audio_file, final_video_output)
